@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      #but{
+        width: 100px;
+        height: 40px;
+        background-color: whitesmoke;
+        border: none;
+        margin-left: 45%;
+        margin-top: 20%;
+        font-size: 25px;
+      }
+</style>
+<body>
+    
+    <main>
+       <button id="but" onclick="backcolorchange()">On/Off</button>
+    </main>
+</body>
+</html>
+
+<script>
+    //  let color = ["white"]
+    //  let fig = 0
+    //  document.body.style.backgroundColor = color[fig];
+
+    //  function before(){
+    //     if(fig == color,lenght =1)
+    //     fig++;
+    //   document.body.style.backgroundcolor = color[fig];
+    //  }
+
+    //  let colors = [ "red"]
+    //  let index = 0
+    //  document.body.style.backgroundColor = colors[index];
+
+    //  function nextcolor(){
+    //     if(index == colors,lenght =1)
+    //     index++;
+    //  document.body.style.backgroundColor = colors[index];
+    //  } 
+
+
+      document.body.style.backgroundColor = 'white'
+      function backcolorchange() {
+      document.body.style.backgroundColor == 'white' ?  
+      document.body.style.backgroundColor = 'red' :
+      document.body.style.backgroundColor = 'white'
+      }
+     
+</script>
